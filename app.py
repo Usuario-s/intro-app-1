@@ -12,3 +12,17 @@ st.image(image, caption="interfaces multimodales")
 
 texto = st.text_input("escribe","this is my")
 st.write("el texto escrito es", texto)
+
+
+col1,col2 = st.columns(2)
+
+with col1:
+  st.subheadder("aaaaaaaaaaaaaa")
+  st.write("eeeeeeeeeeeee")
+  resp = st.checkbox("estoy")
+  if resp:
+    st.write("oooooo")
+
+
+with col2:
+  image= Image.open("tin.jpg")
