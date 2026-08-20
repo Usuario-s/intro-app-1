@@ -10,5 +10,5 @@ image = Image.open("tin.jpg")
 st.image(image, caption="interfaces multimodales")
 
 
-texto = st.text_import("escribe","this is my")
+texto = st.text_input("escribe","this is my")
 st.write("el texto escrito es", texto)
