@@ -26,7 +26,7 @@ with col1:
 
 with col2:
   image= Image.open("tin.jpg")
-  moddo = st.radio("que modalidad jdsjlksajk",("visual", "auditiva", "tactil"))
+  modo = st.radio("que modalidad jdsjlksajk",("visual", "auditiva", "tactil"))
   if modo == "visual":
     st.write("la vista es fundamental")
   if modo == "auditiva":
