@@ -8,3 +8,7 @@ st.header("en este jdklajkl")
 st.write("slkjflksjlk entonces dijeron")
 image = Image.open("tin.jpg")
 st.image(image, caption="interfaces multimodales")
+
+
+texto = st.text_import("escribe","this is my")
+st.write("el texto escrito es", texto)
