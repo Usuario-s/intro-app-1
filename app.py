@@ -1,3 +1,7 @@
 import streamlit as st
+from PIL import Image
 
-st.title("Hola mi nomnbre es ")
+st.title("y un sabio dijo")
+
+
+
