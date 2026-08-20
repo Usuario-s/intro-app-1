@@ -17,7 +17,7 @@ st.write("el texto escrito es", texto)
 col1,col2 = st.columns(2)
 
 with col1:
-  st.subheadder("aaaaaaaaaaaaaa")
+  st.subheader("aaaaaaaaaaaaaa")
   st.write("eeeeeeeeeeeee")
   resp = st.checkbox("estoy")
   if resp:
